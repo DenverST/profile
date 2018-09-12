@@ -43,11 +43,11 @@ h1:hover {
 h2 {
   text-align: center;
   font-size: 13;
-  color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 h2:hover {
-  color: rgba(0, 0, 0, .2)
+  color: rgba(0, 0, 0, .8)
 }
 
 h3 {
@@ -67,7 +67,7 @@ a {
   text-decoration: none;
   color: rgb(70, 70, 70);
   font-weight: normal;
-  font-size: 13
+  font-size: 17
 }
 
 a:hover {
@@ -95,10 +95,17 @@ a:hover {
   display: inline-block;
 }
 
+table {
+  border-collapse: collapse;
+}
 
 td {
   padding: 20px;
   width: 250px;
+}
+
+tr {
+  border-top: 2px solid lightgrey;
 }
 
 
@@ -153,4 +160,12 @@ td {
 
 p a {
   color: red;
+}
+
+.sidebar-inline li a {
+  font-size: 13;
+}
+
+td p a {
+  font-size: 14;
 }
