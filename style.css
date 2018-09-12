@@ -83,15 +83,25 @@ a:hover {
   margin-right: auto;
 }
 
-.logo-box {
-  height: 140px;
-  width: 185px;
-  border-radius: 2.5%;
+.logos {
+  text-align: center;
+  width: 150px;
 }
 
-td {
-  width: 210px;
+.logo-box {
+  height: 75px;
+  width: 75px;
+  border-radius: 2.5%;
+  display: inline-block;
 }
+
+
+td {
+  padding: 20px;
+  width: 250px;
+}
+
+
 
 .container {
   width: 500px;   /* This sets the width */
@@ -139,4 +149,8 @@ td {
 
 #page-content {
   margin-left: 75px;
+}
+
+p a {
+  color: red;
 }
