@@ -8,8 +8,8 @@ body {
 
 h1, h2, h3, p, h4, h5 {
   font-size: 10;
-  color: pink;
-/*  color: rgb(10, 10, 10);*/
+/*  color: pink;*/
+  color: rgb(10, 10, 10);
   line-height: 1.5;
   font-family: 'Roboto Condensed', sans-serif, Helvetica;
   font-weight: normal;
